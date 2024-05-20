@@ -19,8 +19,8 @@ Para saber mais sobre o Nuxt 3, consulte a [documentação oficial](https://nuxt
 ```mermaid
 graph TD;
     subgraph Datacenter
-        A[Frontend (Nuxt 3) \nImagem: nuxt:latest \nPorta: 3000] --> B[Backend (ElysiaJS) \nImagem: elysiajs:latest \nPorta: 4000]
-        B --> C[Database (PostgreSQL) \nImagem: postgres:latest \nPorta: 5432]
+        A[Frontend (Nuxt 3) - Imagem: nuxt:latest - Porta: 3000] --> B[Backend (ElysiaJS) - Imagem: elysiajs:latest - Porta: 4000]
+        B --> C[Database (PostgreSQL) - Imagem: postgres:latest - Porta: 5432]
     end
 ```
 
