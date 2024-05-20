@@ -81,7 +81,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou env
 
 ## Licença
 
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está licenciado sob a Licença BSL 1.1. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
