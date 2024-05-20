@@ -1,0 +1,43 @@
+{
+  "name": "nuxt-app",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "prepare": "husky install",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.2"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.18.1",
+    "@babel/eslint-parser": "^7.24.5",
+    "@nuxt/eslint": "^0.3.13",
+    "@nuxtjs/eslint-config-typescript": "^12.1.0",
+    "@nuxtjs/eslint-module": "^4.1.0",
+    "eslint": "^9.3.0",
+    "eslint-define-config": "^2.1.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^15.2.2",
+    "nuxt": "^3.11.2",
+    "vite-plugin-vuetify": "^2.0.3",
+    "vuetify": "^3.6.6"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts,vue}": "eslint --fix"
+  }
+}
