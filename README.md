@@ -1,13 +1,92 @@
-# Nuxt 3 Minimal Starter
+# EduPrime - Digital Class Diary System
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+EduPrime é um sistema de diário de classe digital desenvolvido para escolas municipais públicas. Este projeto é uma iniciativa de código aberto para fornecer uma solução eficiente e acessível para o gerenciamento de registros acadêmicos.
 
-### Diagrama de Topologia de Rede
+## Sobre o Projeto
+
+EduPrime é construído usando as seguintes tecnologias:
+- **Frontend**: Nuxt 3 com Vuetify 3
+- **Backend**: ElysiaJS
+- **Banco de Dados**: PostgreSQL
+- **Outras Ferramentas**: TypeScript, Composition API,  Sentry
+
+## Documentação
+
+Para saber mais sobre o Nuxt 3, consulte a [documentação oficial](https://nuxt.com/docs/getting-started/introduction).
+
+## Diagrama de Topologia de Rede
 
 ```mermaid
 graph TD;
     subgraph Datacenter
-        A[Frontend (Nuxt3)\nImagem: nuxt:latest\nPorta: 3000] --> B[Backend (ElysiaJS)\nImagem: elysiajs:latest\nPorta: 4000]
-        B --> C[Database (PostgreSQL)\nImagem: postgres:latest\nPorta: 5432]
+        A[Frontend (Nuxt 3)
+Imagem: nuxt:latest
+Porta: 3000] --> B[Backend (ElysiaJS)
+Imagem: elysiajs:latest
+Porta: 4000]
+        B --> C[Database (PostgreSQL)
+Imagem: postgres:latest
+Porta: 5432]
     end
 ```
+
+## Instalação
+
+### Requisitos
+
+- Node.js
+- Bun (opcional, mas recomendado)
+- Docker (para o ambiente de desenvolvimento completo)
+
+### Passos para Instalação
+
+1. **Clone o Repositório**
+
+```bash
+git clone https://github.com/seu-usuario/eduprime.git
+cd eduprime
+```
+
+2. **Instale as Dependências**
+
+```bash
+bun install
+```
+
+3. **Configuração do Ambiente**
+
+Crie um arquivo `.env` na raiz do projeto e adicione as seguintes variáveis de ambiente:
+
+```env
+DATABASE_URL=postgres://usuario:senha@localhost:5432/eduprime
+```
+
+4. **Inicie a Aplicação**
+
+```bash
+bun dev
+```
+
+## Scripts Disponíveis
+
+- `bun dev`: Inicia o servidor de desenvolvimento
+- `bun build`: Compila a aplicação para produção
+- `bun start`: Inicia o servidor em modo de produção
+- `bun lint`: Executa o linting no código
+- `bun lint:fix`: Executa o linting e corrige problemas automaticamente
+
+## Contribuindo
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+**Softagon Sistemas**
+
+*Desenvolvendo soluções inovadoras para a educação.*
+
+---

@@ -19,7 +19,6 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.18.1",
-    "@babel/eslint-parser": "^7.24.5",
     "@nuxt/eslint": "^0.3.13",
     "@nuxtjs/eslint-config-typescript": "^12.1.0",
     "@nuxtjs/eslint-module": "^4.1.0",
