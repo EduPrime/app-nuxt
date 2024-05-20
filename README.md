@@ -23,6 +23,13 @@ graph TD;
         B --> C[Database (PostgreSQL) - Imagem: postgres:latest - Porta: 5432]
     end
 ```
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
 
 ## Instalação
 
