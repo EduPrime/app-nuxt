@@ -15,6 +15,7 @@ EduPrime é construído usando as seguintes tecnologias:
 Para saber mais sobre o Nuxt 3, consulte a [documentação oficial](https://nuxt.com/docs/getting-started/introduction).
 
 ## Diagrama de Topologia de Rede
+```
 +-----------------+           +----------------+           +-----------------+
 |                 |           |                |           |                 |
 |    Frontend     | --------> |    Backend     | --------> |    PostgreSQL   |
@@ -22,6 +23,7 @@ Para saber mais sobre o Nuxt 3, consulte a [documentação oficial](https://nuxt
 |                 |           |   ElysiaJS)    |           |                 |
 +-----------------+           +----------------+           +-----------------+
 
+```
 ## Instalação
 
 ### Requisitos
